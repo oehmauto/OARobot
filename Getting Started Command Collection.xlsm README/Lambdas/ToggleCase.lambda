@@ -1,0 +1,1 @@
+ToggleCase =LAMBDA(x,    IF(ISBLANK(x), "", IF(EXACT(x, UPPER(x)), LOWER(x), IF(EXACT(x, LOWER(x)), PROPER(x), UPPER(x))) ));

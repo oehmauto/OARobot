@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Input">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+   </Borders>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#3F3F76"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="14"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#0C769E"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#0C769E"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#0C769E"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#0C769E"/>
+   </Borders>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#782170" ss:Bold="1"/>
+   <Interior ss:Color="#C0E6F5" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s22">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+   </Borders>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#156082"/>
+   <Interior ss:Color="#DAF2D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+   </Borders>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#156082"/>
+   <Interior ss:Color="#DAF2D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+   </Borders>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#156082"/>
+   <Interior ss:Color="#DAF2D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#3C7D22"/>
+   </Borders>
+   <Font ss:FontName="Blackadder ITC" x:Family="Decorative" ss:Size="11"
+    ss:Color="#156082"/>
+   <Interior ss:Color="#DAF2D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Center"/>
+   <Font ss:FontName="Blackadder ITC" x:Family="Decorative" ss:Size="14"
+    ss:Color="#156082"/>
+   <Interior ss:Color="#DAF2D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="_xlpm.\\LambdaName" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="_xlpm.NameInCell" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="_xlpm.x" ss:RefersTo="=#NAME?" ss:Hidden="1"/>
+  <NamedRange ss:Name="FirstNameFirst"
+   ss:RefersTo="=LAMBDA(NameInCell, LET(&#10;   \\LambdaName, &quot;FirstNameFirst&quot;,&#10;   IF(&#10;      ISNUMBER(SEARCH(&quot;,&quot;, NameInCell)),&#10;      TEXTAFTER(NameInCell, &quot;, &quot;) &amp; &quot; &quot; &amp; TEXTBEFORE(NameInCell, &quot;, &quot;),&#10;      NameInCell&#10;   )&#10;))"/>
+  <NamedRange ss:Name="LastNameFirst"
+   ss:RefersTo="=LAMBDA(NameInCell, LET(&#10;   \\LambdaName, &quot;LastNameFirst&quot;,&#10;   IF(&#10;      ISNUMBER(SEARCH(&quot;,&quot;, NameInCell)),&#10;      NameInCell,&#10;      TEXTAFTER(NameInCell, &quot; &quot;, -1) &amp; &quot;, &quot; &amp; TEXTBEFORE(NameInCell, &quot; &quot;, -1)&#10;   )&#10;))"/>
+  <NamedRange ss:Name="NameForHello" ss:RefersTo="='Command Overview'!R43C4"/>
+  <NamedRange ss:Name="ToggleCase"
+   ss:RefersTo="=LAMBDA(x,    IF(ISBLANK(x), &quot;&quot;, IF(EXACT(x, UPPER(x)), LOWER(x), IF(EXACT(x, LOWER(x)), PROPER(x), UPPER(x))) ))"/>
+ </Names>
+ <Worksheet ss:Name="Command Overview">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="53"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="4" ss:Width="63"/>
+   <Column ss:Index="8" ss:Width="54.75"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="45.75"/>
+   <Row ss:Height="18.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Getting Started Command Collection</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Commands</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Auto-Fit Column Width </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type:  VBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Uses VBA to auto-fit the height of each row of the selected cells.</Data></Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Auto-Fit Row Height</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type:  VBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Uses VBA to auto-fit the width of each column of the selected cells.</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">FirstName LastName</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: Excel Formula</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Switches the cell contents from &lt;Last Name&gt;, &lt;First Name&gt; to &lt;First Name&gt; &lt;Last Name&gt;.   For cells that don't contain a comma, no change is made to the cell contents.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Context: The active cell(s) must be non-empty to enable the command.&#10;</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">LastName, FirstName</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: Excel Formula</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Switches the cell contents from &lt;First Name&gt; &lt;Last Name&gt; to &lt;Last Name&gt;, &lt;First Name&gt;.   For cells that already contain a comma, no change is made to the cell contents.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Context: The active cell(s) must be non-empty to enable the command.&#10;</Data></Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Make Cell Pretty</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="String">Type: VBA</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell><Data ss:Type="String">Description:  Applies this beautiful formatting to the selected cell.</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"><Data ss:Type="String">Pretty Cell</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="String">Context: A single cell must be selected to enable the command.</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:Height="15.75">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Make Selection Pretty</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Type: VBA</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="21">
+    <Cell><Data ss:Type="String">Description:  Applies this beautiful formatting to the entire selection, which can be either a single cell or multiple cells.</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Pretty Selection</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="11" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Make Tab Pretty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: VBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Applies the dark blue color to the tab of the active sheet.</Data></Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Robot Sticker</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: VBA</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Description:  Inserts an &quot;I </Font><Font
+       html:Face="Webdings" x:CharSet="2" x:Family="Roman" html:Color="#000000">Y</Font><Font
+       html:Color="#000000"> Robot&quot; image in the active cell.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Index="39">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Say Hello</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: VBA</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Opens a VBA message box that says &quot;Hello, (contents of a named range)&quot; </Data></Cell>
+   </Row>
+   <Row ss:Index="43">
+    <Cell ss:Index="2"><Data ss:Type="String">Name for Hello:</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String">Ada Lovelace</Data><NamedCell
+      ss:Name="NameForHello"/></Cell>
+   </Row>
+   <Row ss:Index="45">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Toggle Case</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: Excel Formula</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Switches the contents of the active cells from UPPER CASE to lower case, or lower case to Proper Case, or Proper Case to UPPER CASE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Context: The active cell(s) must be non-empty to enable the command.&#10;</Data></Cell>
+   </Row>
+   <Row ss:Index="50">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Wassup!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type: Excel Formula</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description:  Wraps the active cell contents with &quot;Wassup, _ !&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Context: The active cell(s) must be non-empty to enable the command.&#10;</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

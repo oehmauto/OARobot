@@ -1,0 +1,165 @@
+{
+  "Commands": [
+    {
+      "Name": "Auto-Fit Column Width",
+      "Description": "Adjusts the widths of the columns based on selected cells' content.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "af"
+      ],
+      "MacroExpression": "modCommands.AutoFitColumnWidthSelection()",
+      "Tags": [
+        "Formatting"
+      ]
+    },
+    {
+      "Name": "Auto-Fit Row Height",
+      "Description": "Adjusts the heights of the rows based on selected cells' content.",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "ar"
+      ],
+      "MacroExpression": "modCommands.AutoFitRowHeightSelection()",
+      "Tags": [
+        "Formatting"
+      ]
+    },
+    {
+      "Name": "FirstName LastName",
+      "Description": "Takes the name in the active cell and switches it to FirstName LastName",
+      "Type": "ExcelFormulaCommand",
+      "UserContextFilter": "ExcelActiveCellIsNotEmpty",
+      "Documentation": [
+        "FirstName LastName.md"
+      ],
+      "LaunchCodes": [
+        "fn"
+      ],
+      "Formula": "=FirstNameFirst([[ActiveCell::Formula]])",
+      "Tags": [
+        "Text_Editing"
+      ],
+      "FormulaDependencies": [
+        "FirstNameFirst.lambda"
+      ]
+    },
+    {
+      "Name": "LastName, FirstName",
+      "Description": "Takes the name in the active cell and switches it to LastName, FirstName",
+      "Type": "ExcelFormulaCommand",
+      "UserContextFilter": "ExcelActiveCellIsNotEmpty",
+      "Documentation": [
+        "LastName FirstName.md"
+      ],
+      "LaunchCodes": [
+        "ln"
+      ],
+      "Formula": "=LastNameFirst([[ActiveCell::Formula]])",
+      "Tags": [
+        "Text_Editing"
+      ],
+      "FormulaDependencies": [
+        "LastNameFirst.lambda"
+      ]
+    },
+    {
+      "Name": "Make Cell Pretty",
+      "Description": "Applies the pretty formatting to the active cell",
+      "Type": "VBAMacroCommand",
+      "UserContextFilter": "ExcelSelectionIsSingleCell",
+      "LaunchCodes": [
+        "mp"
+      ],
+      "MacroExpression": "modCommands.MakeCellPretty()",
+      "Tags": [
+        "Formatting"
+      ]
+    },
+    {
+      "Name": "Make Selection Pretty",
+      "Description": "Applies the pretty selection formatting to the active selection",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "ms"
+      ],
+      "MacroExpression": "modCommands.MakeSelectionPretty()",
+      "Tags": [
+        "Formatting"
+      ]
+    },
+    {
+      "Name": "Make Tab Pretty",
+      "Description": "Applies the pretty tab formatting to the active tab",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "mt"
+      ],
+      "MacroExpression": "modCommands.MakeTabPretty()",
+      "Tags": [
+        "Formatting"
+      ]
+    },
+    {
+      "Name": "Robot Sticker",
+      "Description": "Sticks a Robot Sticker on the active workbook",
+      "Type": "VBAMacroCommand",
+      "LaunchCodes": [
+        "rs"
+      ],
+      "MacroExpression": "modCommands.RobotSticker()",
+      "Tags": [
+        "Fun_and_Games"
+      ]
+    },
+    {
+      "Name": "Say Hello",
+      "Description": "Opens a message box with \"Hello, (contents of the named range) !\"  ",
+      "Type": "VBAMacroCommand",
+      "Documentation": [
+        "Say Hello.md"
+      ],
+      "LaunchCodes": [
+        "sh"
+      ],
+      "MacroExpression": "modCommands.SayHello()",
+      "Tags": [
+        "Demo_Commands"
+      ]
+    },
+    {
+      "Name": "Toggle Case",
+      "Description": "Switches the contents of the active cell(s) from UPPER CASE to lower case, or lower case to Proper Case, or Proper Case to UPPER CASE",
+      "Type": "ExcelFormulaCommand",
+      "UserContextFilter": "ExcelActiveCellIsNotEmpty",
+      "Documentation": [
+        "Toggle Case.md"
+      ],
+      "LaunchCodes": [
+        "tc"
+      ],
+      "Formula": "=ToggleCase([[ActiveCell::Formula]])",
+      "Tags": [
+        "Text_Editing"
+      ],
+      "FormulaDependencies": [
+        "ToggleCase.lambda"
+      ]
+    },
+    {
+      "Name": "Wassup!",
+      "Description": "Wraps the active cell contents with \"Wassup, _ !\"",
+      "Type": "ExcelFormulaCommand",
+      "UserContextFilter": "ExcelActiveCellIsNotEmpty",
+      "Documentation": [
+        "Wassup!.md"
+      ],
+      "LaunchCodes": [
+        "wu"
+      ],
+      "Formula": "=\"Wassup, \"& [[ActiveCell::Formula]] &\"!\"",
+      "Tags": [
+        "Demo_Commands"
+      ]
+    }
+  ]
+}

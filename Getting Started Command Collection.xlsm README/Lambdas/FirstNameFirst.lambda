@@ -1,0 +1,8 @@
+FirstNameFirst =LAMBDA(NameInCell, LET(
+   \\LambdaName, "FirstNameFirst",
+   IF(
+      ISNUMBER(SEARCH(",", NameInCell)),
+      TEXTAFTER(NameInCell, ", ") & " " & TEXTBEFORE(NameInCell, ", "),
+      NameInCell
+   )
+));
